@@ -136,6 +136,7 @@ img {
     line-height: 1.5;
     padding-top: 24px;
     padding-bottom: 24px;
+    
 }
 
 .header-nav__link:hover,
@@ -161,6 +162,7 @@ img {
     display: inline-block;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-contacts__link:hover,
@@ -173,6 +175,7 @@ img {
 .header-nav__link{
     position: relative;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-nav__link::after {
@@ -197,6 +200,7 @@ img {
     background-size: cover;
     padding: 188px 0;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 
@@ -245,13 +249,7 @@ img {
     padding: 120px 0;
 }
 
-.container-hidden{
-display: flex;
-align-items: center;
-justify-content: center;
-height: 112px;
-margin-bottom: 8px;
-}
+
 .company__list {
     display: flex;
     gap: 24px;
@@ -382,8 +380,9 @@ gap: 24px;
 display: flex;
 justify-content: center;
     flex-basis: calc((100%-3*10)/4);
-    height: 40px;
     width: 40px;
+    height: 40px;
+    gap: 24px;
 }
 .icon-link{
     width: 100%;
