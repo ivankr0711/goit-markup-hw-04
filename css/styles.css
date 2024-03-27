@@ -170,12 +170,12 @@ img {
 
 /* heder perevirka */
 
-.header-nav__item{
+.header-nav__link{
     position: relative;
     color: #404bbf;
 }
 
-.header-nav__item::after {
+.header-nav__link::after {
     content: '';
     width: 100%;
     position: absolute;
