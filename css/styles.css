@@ -95,6 +95,7 @@ img {
 .header {
     border-bottom: 1px solid var(--color-cornflower);
     display: flex;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -167,6 +168,26 @@ img {
     color: var(--color-ocean);
 }
 
+/* heder perevirka */
+
+.header-nav__item{
+    position: relative;
+    color: #404bbf;
+}
+
+.header-nav__item::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* section 1 */
 .hero {
     background-color: var(--color-navy-blue);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -227,9 +248,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 height: 112px;
-background-color: #f4f4fd;
-border-radius: 4px;
-border: 1px solid #8e8f99;
 margin-bottom: 8px;
 }
 .company__list {
@@ -276,6 +294,18 @@ margin-bottom: 8px;
 stroke: transparent;
 width: 64px;
 height: 64px;
+}
+
+/* perevirka 2 */
+.container-svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 
