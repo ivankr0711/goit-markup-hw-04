@@ -392,12 +392,13 @@ gap: 24px;
 }
 .icon-link:hover,
 .icon-link:focus {
-    color: rgb(99, 10, 233);
-    background-color: rgb(13, 233, 101);
+    /* color: rgb(99, 10, 233); */
+    background-color: #404bbf;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-   
+
+
 .icon-team {
     fill: #f4f4fd;
     stroke: transparent;
